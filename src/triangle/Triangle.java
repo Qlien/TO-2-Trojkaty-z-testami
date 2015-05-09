@@ -26,7 +26,7 @@ public class Triangle {
                 return false;
             }
         }
-        return !(side1 > 999 || side2 > 999 || side3 > 999);
+        return !(side1 > 999 || side2 > 999 || side3 > 999 || side1 < 1 || side2 < 1|| side3 < 1);
     }
 
     // Method to test for a right-angled triangle.
